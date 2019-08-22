@@ -3,6 +3,8 @@
 .container-fluid {
     position: relative;
     text-align: center;
+    font-family: 'Source Sans Pro', serif;
+    font-size: 22px;
 }
 
 .image {
@@ -33,6 +35,25 @@
 
 #mouse_click{
     margin-top: 250px;
+}
+#about_us, #what_we_do{
+    margin-top: 60px;
+}
+#services{
+    height: 43%;
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    
+}
+#mservices{
+    margin-top: 50px;
+}
+#themessage{
+    padding-top: 140px;
 }
 
 /* Extra small devices (phones, 600px and down) */
