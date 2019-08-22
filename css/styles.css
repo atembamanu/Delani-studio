@@ -61,7 +61,22 @@
 .hidden-content{
     display: none;
 }
-
+#mcontact{
+    height: 60%;
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    margin-top: 70px;
+}
+.mForm{
+    padding-top: 70px;
+}
+.isInput{
+    background-color: transparent;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #mlogo {
