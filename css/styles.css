@@ -77,6 +77,22 @@
 .isInput{
     background-color: transparent;
 }
+::placeholder { 
+    color: white;
+    opacity: 1;
+  }
+
+  .portfolio{
+      max-width: 80%;
+
+  }
+
+  #social{
+      padding-top: 40px;
+  }
+  #social-padding img{
+     padding: 5px;
+  }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #mlogo {
