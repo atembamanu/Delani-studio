@@ -1,5 +1,3 @@
-
-
 .container-fluid {
     position: relative;
     text-align: center;
@@ -17,7 +15,8 @@
 
 }
 
-.no-padding {
+.no-padding,
+.work-heading {
     padding-left: 0;
     padding-right: 0;
 }
@@ -33,13 +32,16 @@
 
 }
 
-#mouse_click{
+#mouse_click {
     margin-top: 250px;
 }
-#about_us, #what_we_do{
+
+#about_us,
+#what_we_do {
     margin-top: 60px;
 }
-#services{
+
+#services {
     height: 43%;
     background-image: url(../assets/backgrounds/s_image.jpg);
     background-repeat: no-repeat;
@@ -47,21 +49,27 @@
     background-size: cover;
     position: relative;
     color: white;
-    
+
 }
-#mservices, #we_do{
+
+#mservices,
+#we_do {
     margin-top: 50px;
 }
-#themessage{
+
+#themessage {
     padding-top: 140px;
 }
-.first-list{
+
+.first-list {
     padding-top: 20px;
 }
-.hidden-content{
+
+.hidden-content {
     display: none;
 }
-#mcontact{
+
+#mcontact {
     height: 60%;
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
@@ -71,65 +79,135 @@
     color: white;
     margin-top: 70px;
 }
-.mForm{
+
+.mForm {
     padding-top: 70px;
 }
-form#contact-form::-webkit-input-placeholder { /* Edge */
+
+form#contact-form::-webkit-input-placeholder {
+    /* Edge */
     color: white;
-  }
-  
-  form#contact-form :-ms-input-placeholder { /* Internet Explorer */
+}
+
+form#contact-form :-ms-input-placeholder {
+    /* Internet Explorer */
     color: white;
-  }
-  
-  form#contact-form ::placeholder {
+}
+
+form#contact-form ::placeholder {
     color: white;
-  } 
-.isInput{
+}
+
+.isInput {
     background-color: transparent;
 }
 
 
-  .portfolio{
-      max-width: 80%;
+.portfolio {
+    max-width: 80%;
 
-  }
+}
 
-  #social{
-      padding-top: 40px;
+#social {
+    padding-top: 40px;
+}
+
+#social-padding img {
+    padding: 5px;
+}
+
+.work-heading{
+    display:none;
+    background-color: white;
+      opacity: 0.8;
+      z-index: 1;
+    font-size:30px;
+      height: 100%;
+    width:100%;
+    padding-top:30%;
+      padding-right:15%;
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-  #social-padding img{
-     padding: 5px;
-  }
+  
+  
+  
+
+/* #work1 {
+    background: url(../assets/portfolio/work1.jpg);
+    height: 100%;
+}
+
+#work2 {
+    background: url(../assets/portfolio/work2.jpg);
+    height: 100%;
+}
+
+#work3 {
+    background: url(../assets/portfolio/work3.jpg);
+    height: 100%;
+}
+
+#work4 {
+    background: url(../assets/portfolio/work4.jpg);
+    height: 100%;
+}
+
+#work5 {
+    background: url(../assets/portfolio/work5.jpg);
+    height: 100%;
+}
+
+#work6 {
+    background: url(../assets/portfolio/work6.jpg);
+    height: 100%;
+}
+
+#work7 {
+    background: url(../assets/portfolio/work7.jpg);
+    height: 100%;
+}
+
+#work8 {
+    background: url(../assets/portfolio/work8.jpg);
+    height: 100%;
+} */
+
+#title {
+    margin-top: 50px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #mlogo {
         margin-top: 30%;
         padding-bottom: 110px;
-    
+
     }
-    #mouse_click{
+
+    #mouse_click {
         margin-top: 50px;
     }
+
     #mTitle {
         padding-top: 50px;
         font-size: 30px;
 
     }
-    #welcome{
+
+    #welcome {
         font-size: 30px;
     }
-    #message{
+
+    #message {
         font-size: 14px;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    
-}
+@media only screen and (min-width: 768px) {}
