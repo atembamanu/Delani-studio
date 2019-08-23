@@ -1,5 +1,3 @@
-//user Interface logic
-
 //business logic
 
 $(function(){
@@ -34,5 +32,17 @@ $(function(){
         $('#product').show(function(){
             $('#product-content').hide('fast');
         });
+    })  ;
+
+
+    //portfolio
+    $('#work1').mouseenter(function () {
+        $('.work-heading').filter('#work1-title').show("slow");
+    }).mouseleave(function () {
+        $('#work1-title').hide("slow");
     });
+
+
 });
+//user Interface logic
+
