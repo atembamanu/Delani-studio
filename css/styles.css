@@ -98,8 +98,9 @@ form#contact-form ::placeholder {
     color: white;
 }
 
-.isInput {
+.isInput, .isInput:focus {
     background-color: transparent;
+    color: #fff
 }
 
 
