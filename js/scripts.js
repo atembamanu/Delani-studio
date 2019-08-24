@@ -1,6 +1,8 @@
 //business logic
 
 $(document).ready(function () {
+
+    //toggle what to do.
     $('#design').click(function () {
         $('#design-content').show(function () {
             $('#design').hide('fast');
@@ -80,33 +82,29 @@ $(document).ready(function () {
     }).mouseleave(function () {
         $('#work7-title').hide("slow");
     });
-
-
     $('#work8').mouseenter(function () {
         $('.work-heading').filter('#work8-title').show("slow");
     }).mouseleave(function () {
         $('#work8-title').hide("slow");
     });
-
-
 });
+
+
+
+
+
 //user Interface logic
 $(document).ready(function () {
     $('form.contact').on('submit', function (e) {
         e.preventDefault();
-
         var formData = $(this).serialize();
-        $.getJSON('http://localhost/Delani-Studio/mc-end-point.php', formData, function (data) {
-
+        $.getJSON('https://saboticonstituency.info/delani_studio/mc-end-point.php', formData, function (data) {
             if (data.status === 'subscribed') {
-
                 alert('We have received your message.Our team will get back to you as soon as possible. Thank you for reaching out to us');
                 $('form.contact')[0].reset();
             } else {
-
                 alert("oops error: " + data.detail);
                 $('form.contact')[0].reset();
-
             }
         });
     });
