@@ -42,7 +42,7 @@
 }
 
 #services {
-    height: 43%;
+    height: 50%;
     background-image: url(../assets/backgrounds/s_image.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -54,11 +54,12 @@
 
 #mservices,
 #we_do {
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 #themessage {
-    padding-top: 140px;
+    padding-top:    80px;
+    padding-bottom:    50px;
 }
 
 .first-list {
@@ -98,7 +99,8 @@ form#contact-form ::placeholder {
     color: white;
 }
 
-.isInput, .isInput:focus {
+.isInput,
+.isInput:focus {
     background-color: transparent;
     color: #fff
 }
@@ -117,24 +119,24 @@ form#contact-form ::placeholder {
     padding: 5px;
 }
 
-.work-heading{
-    display:none;
+.work-heading {
+    display: none;
     background-color: white;
-      opacity: 0.8;
-      z-index: 1;
-    font-size:30px;
-      height: 100%;
-    width:100%;
-    padding-top:30%;
-      padding-right:15%;
-        position: absolute;
+    opacity: 0.8;
+    z-index: 1;
+    font-size: 30px;
+    height: 100%;
+    width: 100%;
+    padding-top: 30%;
+    padding-right: 15%;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-  
-  
+}
+
+
+
 
 /* #work1 {
     background: url(../assets/portfolio/work1.jpg);
